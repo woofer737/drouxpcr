@@ -1,7 +1,14 @@
 {
-  "version": "1.6.2",
+  "version": "1.6.3",
   "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
   "changelog": [
+    {
+      "version": "1.6.3",
+      "date": "2026-09-27",
+      "changes": [
+        "Correctif important : l'installation automatique des mises à jour ne fonctionnait pas quand l'application tournait comme service Windows — le service s'arrêtait bien, mais ne redémarrait jamais tout seul et le code n'était pas remplacé, à cause d'un chemin Python incorrect utilisé en arrière-plan dans ce mode précis."
+      ]
+    },
     {
       "version": "1.6.2",
       "date": "2026-09-27",
