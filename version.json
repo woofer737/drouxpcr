@@ -1,7 +1,14 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.2",
   "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
   "changelog": [
+    {
+      "version": "1.6.2",
+      "date": "2026-09-27",
+      "changes": [
+        "Correctif : la vérification des mises à jour pouvait afficher « Réponse invalide du serveur de mises à jour » si le fichier de version en ligne contenait un caractère invisible en début de fichier ; le message d'erreur précise maintenant la cause exacte."
+      ]
+    },
     {
       "version": "1.6.1",
       "date": "2026-09-27",
