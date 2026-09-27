@@ -8,7 +8,7 @@
       "changes": [
         "Correctif : le résultat de « Vérifier les mises à jour » (nouvelle version disponible ou déjà à jour) ne s'affichait pas à l'écran même si la vérification fonctionnait correctement en arrière-plan."
       ]
-    },
+},
 {
   "version": "1.6.1",
   "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
