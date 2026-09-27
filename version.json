@@ -1,12 +1,19 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "changelog": [
+    {
+      "version": "1.5.0",
+      "date": "2026-09-27",
+      "changes": [
+        "Ajout d'accès particuliers par utilisateur (Rapports, Audit, Licence, Paramètres d'envoi, Mises à jour) — gérable depuis la page Utilisateurs, en plus du statut administrateur.",
+        "Ajout de la vérification en ligne des mises à jour (bouton « Vérifier les mises à jour »)."
+      ]
+    },
     {
       "version": "1.4.0",
       "date": "2026-09-27",
       "changes": [
-        "Ajout d'une page « Mises à jour » (menu admin) qui affiche la version installée et l'historique complet des changements.",
-        "Ajout de la vérification en ligne des mises à jour."
+        "Ajout d'une page « Mises à jour » (menu admin) qui affiche la version installée et l'historique complet des changements."
       ]
     },
     {
