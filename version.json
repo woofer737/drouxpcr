@@ -1,7 +1,15 @@
 {
-  "version": "1.6.4",
+  "version": "1.7.0",
   "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
   "changelog": [
+    {
+      "version": "1.7.0",
+      "date": "2026-09-29",
+      "changes": [
+        "Ajout de la date de chaque paiement (en plus du montant) — le rapport d'âge des comptes à recevoir pour un mois passé (ex. au 31-07-2026) ignore maintenant correctement les paiements reçus après cette date, au lieu de les soustraire par erreur.",
+        "Les factures et le tableau des clients affichent maintenant la date du paiement partiel ou complet déjà reçu."
+      ]
+    },
     {
       "version": "1.6.4",
       "date": "2026-09-27",
