@@ -1,7 +1,21 @@
 {
-  "version": "1.8.6",
+  "version": "1.8.8",
   "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
   "changelog": [
+    {
+      "version": "1.8.8",
+      "date": "2026-09-30",
+      "changes": [
+        "Nouveau module « Administration » (réservé aux administrateurs, accessible depuis la page d'accueil) permettant de personnaliser le logiciel : nom et courriel de l'entreprise, logo affiché sur les états de compte et rapports PDF (avec retour possible au logo par défaut), ainsi que les messages de conclusion affichés au bas des PDF et dans les courriels."
+      ]
+    },
+    {
+      "version": "1.8.7",
+      "date": "2026-09-30",
+      "changes": [
+        "Ajout d'une page d'accueil (menu) après la connexion : elle propose des tuiles vers chaque volet accessible (Comptes à recevoir, Comptes de crédit, Utilisateurs, Audit, Paramètres d'envoi, Mises à jour, Licence) au lieu d'atterrir directement sur les comptes à recevoir. Les liens « Accueil » sur les autres pages ramènent maintenant à ce menu."
+      ]
+    },
     {
       "version": "1.8.6",
       "date": "2026-09-30",
