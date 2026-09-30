@@ -1,7 +1,41 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.3",
   "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
   "changelog": [
+    {
+      "version": "1.8.3",
+      "date": "2026-09-30",
+      "changes": [
+        "Nouvelle page de connexion : le logiciel s'appelle maintenant « Kubios » (nouveau logo et design revus) — ce nom n'apparaît qu'à l'écran de connexion et n'affecte pas les états de compte, courriels ou documents envoyés aux clients, qui continuent d'afficher le nom de l'entreprise comme avant."
+      ]
+    },
+    {
+      "version": "1.8.2",
+      "date": "2026-09-30",
+      "changes": [
+        "Ajout d'un filtre « Cacher les clients à 0$ » sur la liste des comptes de crédit (limite, solde et dépôt tous à zéro).",
+        "Ajout de l'export PDF des comptes de crédit (logo en haut à droite, comme les autres rapports) — soit la liste actuelle, soit le rapport exact d'une importation passée.",
+        "Chaque importation (liste initiale, instantané mensuel ou journal de transactions) garde maintenant sa propre photo des soldes, téléchargeable en PDF n'importe quand — même s'il y a plusieurs importations dans le même mois, chacune garde son propre rapport.",
+        "Ajout d'une option pour exclure les clients à 0$ (limite, solde et dépôt) des PDF générés, autant pour la liste actuelle que pour le rapport d'une importation passée."
+      ]
+    },
+    {
+      "version": "1.8.1",
+      "date": "2026-09-29",
+      "changes": [
+        "Correction de l'import mensuel des comptes de crédit : le fichier Lightspeed réellement reçu chaque mois (« credit_account_listings... .csv ») est un instantané des soldes actuels (First Name, Last Name, Credit Limit, Debt), pas un journal de transactions — il causait l'erreur « Colonnes Customer et Amount introuvables ». Le format est maintenant détecté automatiquement : instantané mensuel (met à jour les soldes) ou journal de transactions (ajoute des mouvements), les deux dans le même bouton « Importer les mouvements du mois ».",
+        "Les montants avec le symbole $ (ex. « $150000.00 », « $-219.30 ») sont maintenant lus correctement dans tous les imports de comptes de crédit."
+      ]
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-09-29",
+      "changes": [
+        "Ajout d'un nouveau volet « Comptes de crédit » (Lightspeed), distinct des comptes à recevoir : liste des clients avec limite de crédit, solde dû et dépôt, avec alerte si un client dépasse sa limite.",
+        "Import initial de la liste des comptes de crédit depuis un fichier Excel ou CSV.",
+        "Import mensuel des mouvements (transactions) exportés de Lightspeed en CSV — met à jour les soldes automatiquement, sans risque de doublons si le même fichier est réimporté par erreur."
+      ]
+    },
     {
       "version": "1.7.0",
       "date": "2026-09-29",
