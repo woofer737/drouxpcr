@@ -1,7 +1,14 @@
 {
-  "version": "1.8.8",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/release.zip",
+  "version": "1.8.9",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.8.9.zip",
   "changelog": [
+    {
+      "version": "1.8.9",
+      "date": "2026-10-06",
+      "changes": [
+        "Licence : l'expiration des licences de 30 jours et d'un an ne dépend plus seulement de la date de l'ordinateur. L'app vérifie la date réelle sur Internet (au démarrage puis toutes les 6 heures) et mémorise la date la plus récente qu'elle a vue. Si la date de l'ordinateur est reculée de plus d'un jour, l'app se bloque avec un message demandant de corriger la date, et l'événement est inscrit au journal d'audit. Sans Internet, la date mémorisée sert de référence. Les licences à vie ne sont pas touchées."
+      ]
+    },
     {
       "version": "1.8.8",
       "date": "2026-09-30",
