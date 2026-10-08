@@ -1,7 +1,15 @@
 {
-  "version": "1.8.9",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.8.9.zip",
+  "version": "1.9.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.9.0.zip",
   "changelog": [
+    {
+      "version": "1.9.0",
+      "date": "2026-10-08",
+      "changes": [
+        "Comptes à recevoir : nouveau bouton « Modifier le client » dans la fiche d'un client. Il permet de changer le nom, le courriel, le téléphone et l'adresse d'un client existant. Lors d'un changement de nom, toutes ses factures suivent automatiquement et son onglet dans le fichier Excel est renommé à la prochaine synchronisation (aucun onglet en double). Chaque modification est inscrite au journal d'audit avec l'ancienne et la nouvelle valeur.",
+        "La fiche d'un client affiche maintenant son courriel et son téléphone sous son nom."
+      ]
+    },
     {
       "version": "1.8.9",
       "date": "2026-10-06",
