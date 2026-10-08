@@ -1,7 +1,33 @@
 {
-  "version": "1.9.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.9.0.zip",
+  "version": "1.9.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.9.3.zip",
   "changelog": [
+    {
+      "version": "1.9.3",
+      "date": "2026-10-08",
+      "changes": [
+        "Comptes à recevoir : une facture à montant négatif (note de crédit) n'est plus affichée « Payée ». Elle porte maintenant un badge bleu « Crédit », avec son montant et son solde en bleu. Le bouton devient « Crédit appliqué » (le crédit a été utilisé ou remboursé — son solde passe à 0, badge « Crédit appliqué ») et peut être annulé.",
+        "Dans la liste des clients, un client dont le solde total est négatif affiche un badge bleu « Crédit » au lieu de « À jour »."
+      ]
+    },
+    {
+      "version": "1.9.2",
+      "date": "2026-10-08",
+      "changes": [
+        "Comptes de crédit : la fiche d'un client permet maintenant de modifier le compte (nom, limite de crédit, montant dû, dépôt, notes) et de le supprimer (administrateurs seulement, avec son historique).",
+        "Chaque mouvement de l'historique peut être modifié (date, type, vente, montant) ou supprimé s'il est en erreur. Le solde du client est ajusté automatiquement de la différence (une confirmation indique le montant).",
+        "Nouvelle case « Ne pas synchroniser avec l'importation » sur chaque compte : l'import des mouvements (instantané mensuel ou journal de transactions) ne touche plus à ce compte et garde tes valeurs. La réinitialisation complète de la liste, elle, remplace quand même tout. Un badge « Non synchronisé » s'affiche dans la liste.",
+        "Toutes ces actions sont inscrites au journal d'audit."
+      ]
+    },
+    {
+      "version": "1.9.1",
+      "date": "2026-10-08",
+      "changes": [
+        "Comptes de crédit : « Importer / réinitialiser la liste des clients » accepte maintenant aussi l'export Lightspeed « credit_account_listings » (.csv en anglais, colonnes First Name, Last Name, Credit Limit, Debt), en plus du format en français (Prénom / Entreprise, Nom, Limite de crédit, Montant dû, Dépôt). Le montant dû vient de la colonne « Debt » ; un « Debt » négatif (crédit en faveur du client) est importé comme dépôt, avec un montant dû à 0. L'import mensuel des mouvements applique la même règle : les clients en crédit ne sont plus comptés deux fois (solde négatif + dépôt).",
+        "Correction : un montant écrit à la française dans un fichier importé (ex. « 1 234,56 $ ») était lu comme 123 456 $ ; la virgule décimale est maintenant reconnue."
+      ]
+    },
     {
       "version": "1.9.0",
       "date": "2026-10-08",
