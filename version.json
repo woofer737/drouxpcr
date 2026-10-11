@@ -1,7 +1,15 @@
 {
-  "version": "1.10.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.10.2.zip",
+  "version": "1.10.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.10.3.zip",
   "changelog": [
+    {
+      "version": "1.10.3",
+      "date": "2026-10-11",
+      "changes": [
+        "Synchronisation Lightspeed automatique : choix de la fréquence dans Administration → Lightspeed — désactivée, chaque jour, ou le dernier jour de chaque mois (à partir de l'heure choisie, 23 h proposé).",
+        "La synchronisation de fin de mois garde toujours un rapport PDF « Fin de mois » dans « Rapports PDF par importation », même si aucun solde n'a changé, pour avoir le portrait de chaque fin de mois."
+      ]
+    },
     {
       "version": "1.10.2",
       "date": "2026-10-11",
