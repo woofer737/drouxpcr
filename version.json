@@ -1,7 +1,17 @@
 {
-  "version": "1.9.3",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.9.3.zip",
+  "version": "1.10.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.10.0.zip",
   "changelog": [
+    {
+      "version": "1.10.0",
+      "date": "2026-10-11",
+      "changes": [
+        "Comptes de crédit : synchronisation directe avec Lightspeed R-Series (API). Plus besoin d'exporter le fichier « credit_account_listings » : le bouton « Synchroniser maintenant » lit les comptes de crédit dans Lightspeed et met à jour la limite, le montant dû et le dépôt de chaque client (un changement de solde est inscrit dans l'historique).",
+        "Chaque compte Kubios est maintenant relié à son compte Lightspeed par son numéro : les clients portant le même nom ne se mélangent plus. À la première synchronisation, l'association se fait par nom ; les homonymes sont listés dans « Comptes Lightspeed à associer » pour être reliés à la main.",
+        "Administration → Lightspeed : Client ID / secret de l'application Lightspeed, bouton « Connecter à Lightspeed », test de connexion, sens du solde (détecté automatiquement à la première synchronisation) et synchronisation automatique quotidienne à l'heure choisie.",
+        "Les cartes-cadeaux et les comptes archivés de Lightspeed sont ignorés ; les comptes « Ne pas synchroniser » sont reliés mais jamais modifiés."
+      ]
+    },
     {
       "version": "1.9.3",
       "date": "2026-10-08",
