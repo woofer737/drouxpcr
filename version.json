@@ -1,7 +1,17 @@
 {
-  "version": "1.10.3",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.10.3.zip",
+  "version": "1.11.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.11.0.zip",
   "changelog": [
+    {
+      "version": "1.11.0",
+      "date": "2026-10-11",
+      "changes": [
+        "Comptes à recevoir : nouvel onglet « Factures Lightspeed ». Le bouton « Vérifier les factures » lit dans Lightspeed les ventes portées au compte de crédit depuis une date et montre celles qui ne sont pas encore dans Kubios (comparaison par numéro de vente). Tu choisis pour chacune : inscrire, plus tard ou ignorer, puis « Inscrire dans Kubios ».",
+        "Montant = partie de la vente portée au compte ; un retour porté au compte devient une note de crédit ; échéance = dernier jour du mois suivant. Les ventes de clients absents de Kubios sont dans « Autres clients » : on peut les relier à un client existant ou créer le client (coordonnées lues dans Lightspeed).",
+        "Les paiements reçus sur compte dans Lightspeed sont affichés comme rappel (Lightspeed ne les relie pas à une facture précise) : ils se marquent toujours dans Kubios.",
+        "Une sauvegarde des comptes à recevoir (clients et factures) est prise avant chaque inscription ; un administrateur peut tout remettre comme avant (section « Sauvegardes avant inscription »)."
+      ]
+    },
     {
       "version": "1.10.3",
       "date": "2026-10-11",
