@@ -1,7 +1,17 @@
 {
-  "version": "1.11.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.11.2.zip",
+  "version": "1.11.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.11.3.zip",
   "changelog": [
+    {
+      "version": "1.11.3",
+      "date": "2026-10-12",
+      "changes": [
+        "Comptes à recevoir : bouton « Fusionner… » dans la fiche client. On choisit l'autre client et le nom à garder : les factures, les liens Lightspeed et les paiements traités passent au client gardé, ses coordonnées vides sont complétées, l'autre client est retiré (son onglet Excel est supprimé à la prochaine synchronisation). Une sauvegarde est prise avant.",
+        "Noms reconnus : le nom d'un client fusionné (ou l'ancien nom d'un client renommé) reste associé au bon client ; les prochaines vérifications Lightspeed le retrouvent automatiquement.",
+        "Factures Lightspeed : action « Relier seulement » pour relier un client Lightspeed à un client Kubios existant sans inscrire de facture ; un paiement d'un client pas encore reconnu peut être relié et appliqué au client choisi.",
+        "Fiche client : liste des liens Lightspeed et des noms reconnus, avec bouton pour en retirer un."
+      ]
+    },
     {
       "version": "1.11.2",
       "date": "2026-10-12",
