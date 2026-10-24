@@ -1,7 +1,16 @@
 {
-  "version": "1.11.3",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.11.3.zip",
+  "version": "1.12.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.12.0.zip",
   "changelog": [
+    {
+      "version": "1.12.0",
+      "date": "2026-10-13",
+      "changes": [
+        "Nouveau module « Rapports personnalisés » (accueil), avec une permission dédiée pour les utilisateurs non administrateurs.",
+        "Premier rapport : « Ventes par catégorie d'articles », lu directement dans Lightspeed (API) pour la période choisie (aujourd'hui, hier, semaine, mois, mois dernier, année ou dates précises), par magasin au besoin, en catégories complètes ou principales : quantité, sous-total, rabais, total, coût, profit, marge et part des ventes, avec total général.",
+        "Exportation du rapport en Excel et en PDF (logo de l'entreprise)."
+      ]
+    },
     {
       "version": "1.11.3",
       "date": "2026-10-12",
