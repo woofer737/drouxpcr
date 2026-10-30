@@ -1,7 +1,15 @@
 {
-  "version": "1.15.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.15.1.zip",
+  "version": "1.16.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.16.0.zip",
   "changelog": [
+    {
+      "version": "1.16.0",
+      "date": "2026-10-30",
+      "changes": [
+        "Nouvelle option « Sauvegardes » (accueil, administrateurs) : sauvegarde complète de toutes les données et de la configuration (base de données, classeur Excel, logo et image de fond), automatiquement une fois par jour à l'heure choisie, conservée 30 jours (7 ou 14 au choix), dans le dossier choisi (disque externe ou réseau recommandé).",
+        "Boutons « Faire une sauvegarde maintenant », « Télécharger » et « Restaurer » ; restauration possible aussi à partir d'un fichier. Avant toute restauration, l'état actuel est sauvegardé ; la connexion Lightspeed actuelle est conservée."
+      ]
+    },
     {
       "version": "1.15.1",
       "date": "2026-10-30",
