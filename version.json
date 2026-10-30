@@ -1,7 +1,16 @@
 {
-  "version": "1.13.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.13.2.zip",
+  "version": "1.14.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.14.0.zip",
   "changelog": [
+    {
+      "version": "1.14.0",
+      "date": "2026-10-28",
+      "changes": [
+        "Mot de passe oublié : lien « Mot de passe oublié ? » sur la page de connexion. Un lien de réinitialisation est envoyé au courriel de l'utilisateur (valide 1 heure, une seule fois, 3 demandes par heure au maximum).",
+        "Double authentification (2FA), exigée utilisateur par utilisateur par un administrateur. À sa première connexion, l'utilisateur choisit sa méthode : application (Google ou Microsoft Authenticator, code QR) ou code de 6 chiffres envoyé par courriel. Blocage de 15 minutes après 5 codes erronés.",
+        "Administration → nouvelle section « Utilisateurs : courriel et double authentification » : courriel de chaque utilisateur, 2FA obligatoire ou non, état de la configuration et bouton pour la réinitialiser (téléphone perdu)."
+      ]
+    },
     {
       "version": "1.13.2",
       "date": "2026-10-24",
