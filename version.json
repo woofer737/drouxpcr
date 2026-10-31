@@ -1,7 +1,18 @@
 {
-  "version": "1.17.4",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.4.zip",
+  "version": "1.17.5",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.5.zip",
   "changelog": [
+    {
+      "version": "1.17.5",
+      "date": "2026-10-31",
+      "changes": [
+        "Rapport des taxes, mêmes montants que Lightspeed au cent près : les taxes sont arrondies par vente (comme Lightspeed) plutôt que ligne par ligne.",
+        "Les taux propres à chaque classe d'article sont pris en compte (ex. un article « Shopify 13 » taxé à 13 % dans une vente au Québec), pour une ventilation juste.",
+        "Nouveau tableau « Par classe de taxe », présenté comme le rapport « Taxe de vente » de Lightspeed (Item, Shopify 13, No Class…) : sous-total, réductions, taxé, non taxé, TPS, TVQ, total des taxes et total. Sommaire avec TPS et TVQ séparées.",
+        "Ventilation par taux avec les noms officiels (TPS, TVH, TVQ, TVP) ; « TVQ » au lieu de « Taxe 2 » quand le nom est vide ; lignes à 0 $ masquées.",
+        "Les jours lus avant cette version sont relus une fois dans Lightspeed lors du prochain rapport des taxes."
+      ]
+    },
     {
       "version": "1.17.4",
       "date": "2026-10-31",
