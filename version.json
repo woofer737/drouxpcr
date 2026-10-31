@@ -1,7 +1,14 @@
 {
-  "version": "1.17.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.2.zip",
+  "version": "1.17.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.3.zip",
   "changelog": [
+    {
+      "version": "1.17.3",
+      "date": "2026-10-31",
+      "changes": [
+        "Rapport des taxes : le nom des catégories de taxes de Lightspeed est lu aussi avec chaque vente et dans tous les champs possibles ; à défaut, la catégorie est décrite par ses taxes (ex. « TPS 5 % + TVQ 9,975 % » ou « Aucune taxe ») au lieu d'un numéro. Utiliser « Relire Lightspeed et régénérer » pour mettre à jour les noms d'une période."
+      ]
+    },
     {
       "version": "1.17.2",
       "date": "2026-10-31",
