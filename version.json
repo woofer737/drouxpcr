@@ -1,7 +1,14 @@
 {
-  "version": "1.17.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.1.zip",
+  "version": "1.17.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.2.zip",
   "changelog": [
+    {
+      "version": "1.17.2",
+      "date": "2026-10-31",
+      "changes": [
+        "Rapport des taxes : bouton « Relire Lightspeed et régénérer », qui relit toutes les ventes de la période dans Lightspeed (ventes modifiées, annulées ou retournées après coup) avant de refaire le rapport. Le rapport indique aussi quand les ventes ont été lues dans Lightspeed pour la dernière fois."
+      ]
+    },
     {
       "version": "1.17.1",
       "date": "2026-10-31",
