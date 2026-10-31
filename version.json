@@ -1,7 +1,16 @@
 {
-  "version": "1.17.5",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.5.zip",
+  "version": "1.17.6",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.6.zip",
   "changelog": [
+    {
+      "version": "1.17.6",
+      "date": "2026-10-31",
+      "changes": [
+        "Rapport des taxes : nouvelle section « Rapport des frais » à la fin (à l'écran et dans le PDF), pour les mêmes dates : Total des frais d'articles (consigne, écofrais, taxes environnementales…), comme le « Total des frais » du rapport « Lignes de vente → Frais » de Lightspeed, avec le détail par frais.",
+        "Diagnostic : à chaque lecture des ventes, Kubios enregistre quelques lignes brutes de frais dans « diagnostic_frais_lightspeed.json » (C:\\DBouxpCR), pour valider la détection des frais au besoin.",
+        "Les jours lus avant cette version sont relus une fois dans Lightspeed lors du prochain rapport des taxes."
+      ]
+    },
     {
       "version": "1.17.5",
       "date": "2026-10-31",
