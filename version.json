@@ -1,7 +1,16 @@
 {
-  "version": "1.17.6",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.17.6.zip",
+  "version": "1.18.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.18.0.zip",
   "changelog": [
+    {
+      "version": "1.18.0",
+      "date": "2026-11-01",
+      "changes": [
+        "Nouvelle interface : menu latéral permanent sur toutes les pages (Clients et comptes, Rapports, Gestion, Système), selon les accès de chaque utilisateur, avec son nom complet et le bouton de déconnexion.",
+        "Nouvel accueil : bandeau illustré « Bord de mer » qui suit le moment de la journée (matin, après-midi, soir), salutation selon l'heure (Bon matin, Bon après-midi, Bonsoir), recherche rapide d'un client, raccourcis (ajouter une facture, vérifier les factures Lightspeed, envoyer les états de compte, taxes du mois dernier), section « À surveiller » (factures en retard, sauvegarde de la nuit, licence) et ventes des 7 derniers jours.",
+        "Utilisateurs : nouveau champ « Nom complet », à la création et dans « Profil et sécurité »."
+      ]
+    },
     {
       "version": "1.17.6",
       "date": "2026-10-31",
