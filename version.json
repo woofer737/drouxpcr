@@ -1,7 +1,16 @@
 {
-  "version": "1.18.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.18.0.zip",
+  "version": "1.19.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.19.0.zip",
   "changelog": [
+    {
+      "version": "1.19.0",
+      "date": "2026-11-01",
+      "changes": [
+        "Nouveau rapport « Valeur de l'inventaire » (menu Rapports, permission dédiée) : instantané lu dans Lightspeed (quantités en main × coût moyen ou coût par défaut), valeur au prix de détail, articles et unités en stock, détail par catégorie ; quantités négatives signalées à part.",
+        "Historique des instantanés gardé dans Kubios, avec graphique de l'évolution et variation d'un instantané à l'autre ; PDF et envoi par courriel de n'importe quel mois.",
+        "Planification mensuelle (jour du mois ou dernier jour, à l'heure choisie) avec envoi automatique du PDF aux personnes choisies."
+      ]
+    },
     {
       "version": "1.18.0",
       "date": "2026-11-01",
