@@ -1,7 +1,15 @@
 {
-  "version": "1.20.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.20.0.zip",
+  "version": "1.20.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.20.1.zip",
   "changelog": [
+    {
+      "version": "1.20.1",
+      "date": "2026-11-06",
+      "changes": [
+        "Tableau de bord 3D sans Internet : three.js est téléchargé une seule fois par Kubios (version fixée et vérifiée), gardé dans app\\static\\vendor et servi en local. État et bouton de téléchargement dans Administration.",
+        "Maquette embellie et moins blanche : socle de gazon sur terre et roche, routes en asphalte, maisons pastel avec fleurs et buissons, étang avec reflets et ondulations, stationnement, lampadaires allumés la nuit, nuages qui passent, fond bleu ciel."
+      ]
+    },
     {
       "version": "1.20.0",
       "date": "2026-11-06",
