@@ -1,7 +1,16 @@
 {
-  "version": "1.21.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.21.0.zip",
+  "version": "1.22.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.22.0.zip",
   "changelog": [
+    {
+      "version": "1.22.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Atelier : onglet « Bons de travail » pour créer les bons à la main (numéro HubTiger, client, appareil, travaux, date promise) et les attribuer à un mécanicien ; statut suivi par les punchs (ouvert, en cours, terminé), réouverture ou annulation par le gestionnaire.",
+        "Poste de punch : « Mes bons attribués » en premier, avec le client et l'appareil.",
+        "Poste de punch sans le login de Kubios : code d'accès propre au poste ou lien direct qui autorise la tablette (environ un an) ; « Révoquer les tablettes » coupe l'accès de toutes les tablettes. Le NIP du mécanicien reste demandé à chaque punch."
+      ]
+    },
     {
       "version": "1.21.0",
       "date": "2026-11-07",
