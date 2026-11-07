@@ -1,7 +1,14 @@
 {
-  "version": "1.23.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.23.1.zip",
+  "version": "1.23.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.23.2.zip",
   "changelog": [
+    {
+      "version": "1.23.2",
+      "date": "2026-11-07",
+      "changes": [
+        "Rapport des ventes : comptes GL du modèle préréglés (Ventes 4100, Sans catégorie 4190, Articles divers 4150, Location 4200, Pièces de rechange 4300, Service 4400, Fond de livraison 4500, Usage Interne Magasin 4900 ; Visa 1020, Mastercard 1025, Interac 1010, Compte à recevoir 1100, Comptant 1000 ; TPS 2310, TVQ 2315). Le sous-total « Ventes élargies » regroupe Ventes, (Sans catégorie) et (Articles divers, sans fiche). Tout reste modifiable dans « Comptes GL du rapport »."
+      ]
+    },
     {
       "version": "1.23.1",
       "date": "2026-11-07",
