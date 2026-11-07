@@ -1,7 +1,14 @@
 {
-  "version": "1.24.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.24.0.zip",
+  "version": "1.24.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.24.1.zip",
   "changelog": [
+    {
+      "version": "1.24.1",
+      "date": "2026-11-07",
+      "changes": [
+        "Rapport des ventes → Envois automatiques : boutons « Envoyer maintenant » pour le rapport de la veille et le comparatif de la semaine passée, aux gestionnaires cochés (mêmes destinataires et même copie cachée que l'envoi automatique). Les ventes manquantes sont d'abord lues dans Lightspeed ; le résultat apparaît dans le journal des envois."
+      ]
+    },
     {
       "version": "1.24.0",
       "date": "2026-11-07",
