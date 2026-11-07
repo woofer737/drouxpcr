@@ -1,7 +1,16 @@
 {
-  "version": "1.24.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.24.2.zip",
+  "version": "1.25.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.25.0.zip",
   "changelog": [
+    {
+      "version": "1.25.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Bons de travail : priorité en couleur (Normal, Dans la journée, Urgent), notes du responsable pour le mécanicien, ordre de travail par mécanicien (flèches) et vue en colonnes par mécanicien.",
+        "Poste de punch : « Ma journée » en cartes colorées dans l'ordre du responsable, avec date souhaitée (aujourd'hui, demain, en retard) ; le détail du bon et les notes s'affichent avant de débuter et pendant le chronomètre.",
+        "Supprimer un bon de travail ou changer son numéro : réservé aux administrateurs (le temps punché, le facturé et les associations suivent le nouveau numéro)."
+      ]
+    },
     {
       "version": "1.24.2",
       "date": "2026-11-07",
