@@ -1,7 +1,16 @@
 {
-  "version": "1.24.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.24.1.zip",
+  "version": "1.24.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.24.2.zip",
   "changelog": [
+    {
+      "version": "1.24.2",
+      "date": "2026-11-07",
+      "changes": [
+        "Atelier → Rentabilité : « Relire Lightspeed » montre l'avancement et rafraîchit la page à la fin ; la journée en cours n'est plus signalée comme manquante.",
+        "Nouvelle liste « Services facturés non reliés » : services de la période sans numéro de bon HubTiger, ou dont le bon n'a aucun temps punché ; chacun peut être associé à un bon ou ignoré (journal d'audit).",
+        "Atelier → Mécaniciens : suppression d'un mécanicien (avec confirmation s'il a des punchs ; désactiver garde l'historique)."
+      ]
+    },
     {
       "version": "1.24.1",
       "date": "2026-11-07",
