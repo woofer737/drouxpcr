@@ -1,7 +1,17 @@
 {
-  "version": "1.22.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.22.0.zip",
+  "version": "1.23.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.23.0.zip",
   "changelog": [
+    {
+      "version": "1.23.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Nouvelle permission « Comptes à recevoir (clients, factures) », vérifiée par le serveur sur la page et toutes ses données. Les utilisateurs existants la reçoivent automatiquement ; un nouvel utilisateur ne voit plus les comptes à recevoir sans cette permission (menu, accueil, tableau de bord 3D).",
+        "Rapport des ventes au format comptable (écran, PDF, Excel, courriel) : 1. ventes par catégorie avec compte GL et sous-total des « ventes élargies », 2. répartition par mode de paiement, 3. ventilation des taxes, puis grand total facturé aux clients. Comptes GL réglables par un administrateur.",
+        "Les paiements de chaque vente sont maintenant gardés dans Kubios (les jours déjà lus sont relus une fois au prochain rapport).",
+        "Atelier → En direct : rafraîchi toutes les 5 secondes (pause, reprise et fin visibles presque aussitôt)."
+      ]
+    },
     {
       "version": "1.22.0",
       "date": "2026-11-07",
