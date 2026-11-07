@@ -1,7 +1,17 @@
 {
-  "version": "1.20.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.20.1.zip",
+  "version": "1.21.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.21.0.zip",
   "changelog": [
+    {
+      "version": "1.21.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Nouvelle section « Gestion Atelier ». Poste de punch (tablette) : le mécanicien choisit son nom, entre son NIP, tape ou scanne le numéro du bon HubTiger, puis Débuter / Pause / Reprendre / Terminer. S'il a déjà un bon en cours, Kubios demande quoi faire : terminer l'ancien, le mettre en pause ou travailler sur les deux.",
+        "Page « Atelier » : qui travaille sur quoi en direct, temps par bon, alertes de punchs restés ouverts, correction et ajout de punchs (journal d'audit), gestion des mécaniciens (NIP, taux coûtant visible des administrateurs seulement).",
+        "Rentabilité (administrateurs) : minutes et montants de service facturés dans Lightspeed (lignes « Service N mins » marquées « HT: #bon ») comparés au temps punché et au coût du mécanicien ; rendement, taux horaire réel, marge par bon et par mécanicien ; saisie manuelle du facturé au besoin.",
+        "Les ventes gardées dans Kubios notent maintenant le numéro de bon HubTiger et les minutes de service de chaque ligne (les jours déjà lus peuvent être relus depuis la page Atelier)."
+      ]
+    },
     {
       "version": "1.20.1",
       "date": "2026-11-06",
