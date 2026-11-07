@@ -1,7 +1,14 @@
 {
-  "version": "1.23.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.23.2.zip",
+  "version": "1.24.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.24.0.zip",
   "changelog": [
+    {
+      "version": "1.24.0",
+      "date": "2026-11-07",
+      "changes": [
+        "Avis de non-responsabilité au bas de tous les rapports internes (écran, PDF, Excel et courriels) : les montants sont calculés automatiquement et fournis à titre indicatif ; Kubios et Groupe SRB ne peuvent être tenus responsables d'erreurs ; les montants doivent être validés périodiquement, par échantillonnage, dans Lightspeed. Les états de compte envoyés aux clients ne sont pas touchés."
+      ]
+    },
     {
       "version": "1.23.2",
       "date": "2026-11-07",
