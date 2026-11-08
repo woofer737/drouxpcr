@@ -1,7 +1,15 @@
 {
-  "version": "1.31.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.31.0.zip",
+  "version": "1.32.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.32.0.zip",
   "changelog": [
+    {
+      "version": "1.32.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Nouvelle identité : Kubios, logiciel de gestion d'entreprise. Nouvelle page de connexion « Gérez tout. Simplement. » avec une mosaïque animée de mini tableaux de bord en fond ; l'avertissement « Accès autorisé seulement » est conservé.",
+        "Administration → Page de connexion : choix du fond (animation Kubios, image ou vidéo personnalisée) et téléversement d'une vidéo (MP4 ou WebM, jouée en boucle sans son). La vidéo est incluse dans les sauvegardes complètes."
+      ]
+    },
     {
       "version": "1.31.0",
       "date": "2026-11-08",
