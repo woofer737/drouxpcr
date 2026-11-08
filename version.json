@@ -1,7 +1,14 @@
 {
-  "version": "1.29.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.29.1.zip",
+  "version": "1.29.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.29.2.zip",
   "changelog": [
+    {
+      "version": "1.29.2",
+      "date": "2026-11-08",
+      "changes": [
+        "Atelier → Rentabilité : fenêtre « Exporter en PDF… » pour choisir le rapport (financier ou fiche d'évaluation), la période (prédéfinie, une journée ou du … au …), la personne (tous ou un seul mécanicien) et les options."
+      ]
+    },
     {
       "version": "1.29.1",
       "date": "2026-11-08",
