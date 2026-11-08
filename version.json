@@ -1,7 +1,16 @@
 {
-  "version": "1.27.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.27.0.zip",
+  "version": "1.28.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.28.0.zip",
   "changelog": [
+    {
+      "version": "1.28.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Bons de travail : glisser-déposer pour réattribuer un bon à un autre mécanicien ou changer l'ordre.",
+        "Nouveau calendrier de planification (une ligne par mécanicien, une colonne par jour) : on glisse les bons « À planifier » au bon mécanicien et à la bonne journée. Champ « Date de travail » dans le bon. Sur le poste de punch, « Ma journée » ne montre que les bons d'aujourd'hui (ou en retard) et ceux sans date.",
+        "L'atelier en direct : panneau escamotable « Bons du jour » (à faire / en cours, et terminés aujourd'hui) et compteur dans l'en-tête, sans cacher la vue 3D."
+      ]
+    },
     {
       "version": "1.27.0",
       "date": "2026-11-08",
