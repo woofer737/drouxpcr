@@ -1,7 +1,16 @@
 {
-  "version": "1.29.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.29.2.zip",
+  "version": "1.30.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.30.0.zip",
   "changelog": [
+    {
+      "version": "1.30.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Nouveau module « Gestion RH » (permission dédiée) : dossier de chaque employé (profil, documents, évaluations, historique, journal des consultations), rappels (certifications à renouveler, fin de probation, évaluations à faire).",
+        "Évaluation du rendement adaptée à un magasin de vente et de location d'outils (9 critères notés de 1 à 5, points forts, à améliorer, objectifs, commentaires de l'employé), statistiques d'atelier automatiques pour les mécaniciens, PDF signable classé au dossier à la finalisation.",
+        "Atelier → export des fiches d'évaluation : option « Enregistrer aussi au dossier RH ». Les documents RH sont inclus dans les sauvegardes complètes."
+      ]
+    },
     {
       "version": "1.29.2",
       "date": "2026-11-08",
