@@ -1,7 +1,15 @@
 {
-  "version": "1.37.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.37.0.zip",
+  "version": "1.38.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.38.0.zip",
   "changelog": [
+    {
+      "version": "1.38.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Licence par modules : le noyau, Gestion Atelier et Gestion RH ont chacun leur durée (ex. noyau à vie, Atelier et RH 1 an). Un module non inclus ou expiré disparaît du menu et ses pages sont bloquées, sans perte de données. Les anciens codes (OE-LIC1-) restent valides et donnent accès à tous les modules.",
+        "Nouvelle page Licence, dans le style des autres pages, avec le tableau des modules ; l'avis « expire bientôt » couvre aussi les modules. Nouveau générateur de licences avec fenêtres (outil séparé)."
+      ]
+    },
     {
       "version": "1.37.0",
       "date": "2026-11-08",
