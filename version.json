@@ -1,7 +1,24 @@
 {
-  "version": "1.28.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.28.0.zip",
+  "version": "1.29.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.29.1.zip",
   "changelog": [
+    {
+      "version": "1.29.1",
+      "date": "2026-11-08",
+      "changes": [
+        "Nouvelle permission « Gestion Atelier — rentabilité et évaluations (données sensibles) » : sans elle, l'onglet Rentabilité, les fiches d'évaluation et le rapport financier sont cachés et refusés par le serveur.",
+        "« Services non reliés » dans son propre onglet pour le responsable d'atelier, avec Ce mois / Mois dernier / Ce trimestre et « Relire Lightspeed ».",
+        "Option : relire chaque nuit (vers 2 h) les ventes des N derniers jours, pour reprendre les « HT: #bon » ajoutés ou corrigés après coup."
+      ]
+    },
+    {
+      "version": "1.29.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Atelier → Rentabilité : statistiques de performance par mécanicien (bons travaillés et terminés, heures punchées et facturées, rendement, taux réel, marge, bons dépassant le temps facturé, problèmes signalés, punchs corrigés), comparées à la moyenne de l'atelier et à la période précédente ; coût du temps non facturé ; périodes « Cette année » et dates au choix.",
+        "Exports PDF : rapport financier de l'atelier, et fiches d'évaluation (une ou toutes, une page par mécanicien) avec observations automatiques, commentaires et signatures ; options pour inclure ou non le coût et la marge, et le détail par bon."
+      ]
+    },
     {
       "version": "1.28.0",
       "date": "2026-11-08",
