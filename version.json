@@ -1,7 +1,23 @@
 {
-  "version": "1.32.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.32.0.zip",
+  "version": "1.34.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.34.0.zip",
   "changelog": [
+    {
+      "version": "1.34.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Poste de punch : retour automatique à l'accueil après 4 h d'inactivité (au lieu de 1 min), réglable par un administrateur dans Atelier → Mécaniciens (1 min à 8 h).",
+        "Pages de double authentification, de mot de passe oublié et de réinitialisation : même nouveau design que la page de connexion (même fond : animation, image ou vidéo)."
+      ]
+    },
+    {
+      "version": "1.33.0",
+      "date": "2026-11-08",
+      "changes": [
+        "Poste de punch : le NIP se tape au pavé tactile ou au clavier (chiffres, Retour arrière, Entrée, Échap).",
+        "Poste de punch : onglet « À venir » — le mécanicien voit ses bons planifiés des prochains jours (7 jours, 14 jours ou tous), regroupés par journée, et peut en débuter un pour prendre de l'avance."
+      ]
+    },
     {
       "version": "1.32.0",
       "date": "2026-11-08",
