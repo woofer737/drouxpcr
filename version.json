@@ -1,7 +1,23 @@
 {
-  "version": "1.41.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.41.0.zip",
+  "version": "1.42.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.42.0.zip",
   "changelog": [
+    {
+      "version": "1.42.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Nouveau : Gestion RH → Horaires. Grille par département et par jour, quarts types et repas en un clic, congés, total de la semaine (repas déduit), copie de la période précédente, PDF à afficher. Brouillon jusqu'à la publication ; à la publication, chaque employé touché reçoit un courriel avec ses journées.",
+        "Portail employé : « Mon horaire » (cette semaine et la suivante, aujourd'hui en évidence, avis des changements) et l'horaire de tout le magasin ; la journée d'aujourd'hui sur l'accueil.",
+        "Feuilles de temps : retards (au-delà de la tolérance, 5 min par défaut) et absences signalés en comparant l'horaire publié aux punchs."
+      ]
+    },
+    {
+      "version": "1.41.1",
+      "date": "2026-11-09",
+      "changes": [
+        "Feuilles de temps : la fenêtre de correction des punchs est plus large ; chaque punch tient sur deux lignes (type, date et heure, boutons, puis la raison sur toute la largeur). Les raisons s'affichent en entier."
+      ]
+    },
     {
       "version": "1.41.0",
       "date": "2026-11-09",
