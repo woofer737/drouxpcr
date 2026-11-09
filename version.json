@@ -1,7 +1,14 @@
 {
-  "version": "1.39.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.39.0.zip",
+  "version": "1.39.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.39.1.zip",
   "changelog": [
+    {
+      "version": "1.39.1",
+      "date": "2026-11-09",
+      "changes": [
+        "Page de connexion : bouton « Espace employé » vers le portail des employés (affiché quand le module RH est actif) ; lien de retour vers la connexion Kubios sur la page du portail."
+      ]
+    },
     {
       "version": "1.39.0",
       "date": "2026-11-09",
