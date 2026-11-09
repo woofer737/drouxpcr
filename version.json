@@ -1,7 +1,15 @@
 {
-  "version": "1.40.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.40.0.zip",
+  "version": "1.40.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.40.1.zip",
   "changelog": [
+    {
+      "version": "1.40.1",
+      "date": "2026-11-09",
+      "changes": [
+        "Bons de travail : vue « ✓ Terminés » et liste avec recherche (numéro, client, appareil, travaux), filtres (statut, mécanicien, période de fin), colonne « Terminé le » et pages de 50 bons. La liste et le calendrier ne sont plus limités à 500 bons.",
+        "Services non reliés : client et appareil du bon quand il n'a aucun punch, et bons probables proposés (même durée de service, date proche) à associer en un clic quand la vente n'a pas de « HT: # »."
+      ]
+    },
     {
       "version": "1.40.0",
       "date": "2026-11-09",
