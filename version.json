@@ -1,7 +1,15 @@
 {
-  "version": "1.39.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.39.2.zip",
+  "version": "1.40.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.40.0.zip",
   "changelog": [
+    {
+      "version": "1.40.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Atelier → Bons de travail : « Importer de HubTiger » — dépose l'export « Jobs booked in detail » (.xlsx), vois l'aperçu (nouveaux bons, bons complétés, bons terminés), puis confirme. Les champs saisis dans Kubios ne sont jamais écrasés ; le mécanicien, l'ordre et la date de travail ne sont jamais touchés.",
+        "Option : dossier de dépôt C:\\DBouxpCR\\Import_HubTiger — un export qui y est enregistré est importé tout seul (vérification toutes les 5 minutes), puis rangé dans « Importés »."
+      ]
+    },
     {
       "version": "1.39.2",
       "date": "2026-11-09",
