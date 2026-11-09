@@ -1,7 +1,15 @@
 {
-  "version": "1.42.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.42.0.zip",
+  "version": "1.42.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.42.1.zip",
   "changelog": [
+    {
+      "version": "1.42.1",
+      "date": "2026-11-09",
+      "changes": [
+        "Horaires : toujours sur 2 semaines (Période 1 et Période 2) ; menu « Copier » : Période 1 → Période 2, Période 2 → Période 1, ou les 2 semaines précédentes. PDF : heures centrées sous chaque jour, une page par période.",
+        "Feuilles de temps : « En direct » montre aussi qui est en retard ou pas encore arrivé selon l'horaire. Le PDF et l'Excel ont un détail par jour : prévu, entrée, sortie, pauses payées, dîner déduit, heures, et remarques (retard, absence, sortie manquante, corrections avec la raison)."
+      ]
+    },
     {
       "version": "1.42.0",
       "date": "2026-11-09",
