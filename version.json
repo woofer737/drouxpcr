@@ -1,7 +1,14 @@
 {
-  "version": "1.40.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.40.2.zip",
+  "version": "1.41.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.41.0.zip",
   "changelog": [
+    {
+      "version": "1.41.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Bons de travail : bouton ⏱ « Ajouter du temps / Terminer » sur chaque bon. Le responsable ajoute le temps qu'un mécanicien a oublié de puncher (durée en un clic, proposée d'après « Service N mins »), avec la raison notée au journal, et peut marquer le bon terminé ; un punch resté ouvert est fermé. Kubios refuse un temps qui chevauche un autre punch du mécanicien ou qui finirait dans le futur."
+      ]
+    },
     {
       "version": "1.40.2",
       "date": "2026-11-09",
