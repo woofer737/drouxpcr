@@ -1,7 +1,14 @@
 {
-  "version": "1.40.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.40.1.zip",
+  "version": "1.40.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.40.2.zip",
   "changelog": [
+    {
+      "version": "1.40.2",
+      "date": "2026-11-09",
+      "changes": [
+        "Liste et Terminés des bons de travail : tableau compact qui tient à l'écran sans défiler de gauche à droite (client et appareil sur deux lignes, priorité sous le numéro, actions en petits boutons) ; un clic sur la ligne ouvre le bon."
+      ]
+    },
     {
       "version": "1.40.1",
       "date": "2026-11-09",
