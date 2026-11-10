@@ -1,7 +1,16 @@
 {
-  "version": "1.42.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.42.1.zip",
+  "version": "1.43.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.43.0.zip",
   "changelog": [
+    {
+      "version": "1.43.0",
+      "date": "2026-11-09",
+      "changes": [
+        "Nouveau : Gestion → En ligne. Liste des sessions ouvertes (Kubios et portail employé) avec l'adresse, l'appareil et la dernière activité ; un administrateur peut fermer une session ou toutes celles d'une personne.",
+        "Paramètres d'envoi : nouvelle méthode Microsoft 365 (Graph). Les états de compte partent de la boîte partagée des comptes à recevoir, tous les autres envois de la boîte de Kubios ; brouillons déposés dans la boîte ; test d'envoi par boîte. Outlook et SMTP restent disponibles.",
+        "Utilisateurs : « Nouvel utilisateur » et « Réactiver » grisés quand la limite de la licence est atteinte ; pastille verte pour les personnes en ligne ; le panneau se ferme correctement avec ×."
+      ]
+    },
     {
       "version": "1.42.1",
       "date": "2026-11-09",
