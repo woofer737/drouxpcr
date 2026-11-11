@@ -1,7 +1,14 @@
 {
-  "version": "1.44.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.1.zip",
+  "version": "1.44.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.2.zip",
   "changelog": [
+    {
+      "version": "1.44.2",
+      "date": "2026-11-11",
+      "changes": [
+        "Portail employé : « Imprimer » ouvre un PDF fait pour le papier — mon horaire (2 semaines) ou l'horaire du magasin (par département, en paysage). Impression directe (Ctrl+P) aussi mise en page : sans le menu, une journée par ligne."
+      ]
+    },
     {
       "version": "1.44.1",
       "date": "2026-11-11",
