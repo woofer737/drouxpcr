@@ -1,7 +1,15 @@
 {
-  "version": "1.50.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.50.0.zip",
+  "version": "1.50.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.50.1.zip",
   "changelog": [
+    {
+      "version": "1.50.1",
+      "date": "2026-11-11",
+      "changes": [
+        "Nouvelles installations : le nom et le courriel de l'entreprise par défaut sont neutres (« Mon entreprise », aucune copie cachée tant que le courriel n'est pas saisi). Une installation existante garde automatiquement ses valeurs.",
+        "Exemples des champs rendus génériques (paramètres d'envoi, entreprise, sauvegardes, inventaire) ; le service Windows s'affiche maintenant « Kubios » ; README simplifié."
+      ]
+    },
     {
       "version": "1.50.0",
       "date": "2026-11-11",
@@ -838,7 +846,7 @@
       "changes": [
         "Ajout du système de licence (activation par code — 30 jours, 1 an ou à vie — avec redemande automatique à l'expiration).",
         "Ajout du rapport mensuel d'envoi de courriels.",
-        "Copie automatique (CCI) de chaque courriel envoyé vers recevables@outillagesexpress.ca.",
+        "Copie automatique (CCI) de chaque courriel envoyé vers .",
         "Possibilité de modifier le sujet et le message avant l'envoi d'un état de compte."
       ]
     },
