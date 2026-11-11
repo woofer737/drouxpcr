@@ -1,7 +1,14 @@
 {
-  "version": "1.43.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.43.1.zip",
+  "version": "1.43.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.43.2.zip",
   "changelog": [
+    {
+      "version": "1.43.2",
+      "date": "2026-11-11",
+      "changes": [
+        "Microsoft 365 : adresse de réponse pour les états de compte (ex. le groupe Teams recevables@) et option de copie cachée à cette adresse. Utile quand la boîte des comptes à recevoir est un groupe Microsoft 365, qui ne peut pas servir de boîte d'envoi."
+      ]
+    },
     {
       "version": "1.43.1",
       "date": "2026-11-10",
