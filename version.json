@@ -1,7 +1,50 @@
 {
-  "version": "1.44.4",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.4.zip",
+  "version": "1.50.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.50.0.zip",
   "changelog": [
+    {
+      "version": "1.50.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Structure : fin du découpage. Chaque fichier importe maintenant explicitement ce qu'il utilise des autres modules (plus d'importations « tout d'un coup ») ; le numéro de version n'est plus défini qu'à un seul endroit (kubios_version.py). Aucun changement visible.",
+        "Note : l'installation manuelle d'un paquet demande maintenant Kubios 1.46 ou plus récent (sinon, passer par GitHub)."
+      ]
+    },
+    {
+      "version": "1.49.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Structure : dernière grande étape du découpage. Les comptes à recevoir (kubios_comptes.py), le crédit (kubios_credit.py), les rapports (kubios_rapports.py), la connexion à Lightspeed (kubios_lightspeed_pages.py) et les sauvegardes (kubios_sauvegardes.py) sont sortis de app.py, qui ne garde que le démarrage, l'accueil et la connexion. Aucun changement visible."
+      ]
+    },
+    {
+      "version": "1.48.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Structure : les pages de l'Atelier sont sorties de app.py dans kubios_atelier.py, la connexion à Lightspeed et le téléchargement des ventes dans kubios_lightspeed.py, et quelques petits outils communs dans kubios_outils.py. Aucun changement visible."
+      ]
+    },
+    {
+      "version": "1.47.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Structure : les pages Gestion RH (kubios_rh.py), du temps — punch, feuilles de temps, horaires, congés — (kubios_temps.py) et du portail employé (kubios_portail.py) sont sorties de app.py, avec leurs outils partagés (kubios_rh_outils.py, kubios_atelier_outils.py). Aucun changement visible."
+      ]
+    },
+    {
+      "version": "1.46.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Structure : les pages du module Système (utilisateurs, sessions, mises à jour, paramètres d'envoi, journaux, messages, entreprise, licence) sont sorties de app.py dans kubios_systeme.py ; le numéro de version et l'historique dans kubios_version.py ; l'application et les contrôles d'accès dans kubios_app.py et kubios_auth.py. Aucun changement visible."
+      ]
+    },
+    {
+      "version": "1.45.0",
+      "date": "2026-11-11",
+      "changes": [
+        "Structure : le tronc commun de Kubios est sorti de app.py dans 5 modules (kubios_base : base de données et réglages ; kubios_mail : courriels et journal ; kubios_pdf : outils des PDF ; kubios_license : licence ; kubios_sessions : sessions). Aucun changement visible : mêmes pages, mêmes adresses, mêmes réglages, mêmes données."
+      ]
+    },
     {
       "version": "1.44.4",
       "date": "2026-11-11",
