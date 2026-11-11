@@ -1,7 +1,14 @@
 {
-  "version": "1.44.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.0.zip",
+  "version": "1.44.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.1.zip",
   "changelog": [
+    {
+      "version": "1.44.1",
+      "date": "2026-11-11",
+      "changes": [
+        "Congés : choix des approbateurs (pour tout le magasin ou par département) dans la page Congés ; seuls eux reçoivent les demandes. Nouveau courriel de demande (dates, durée, note, qui est déjà en congé, horaire prévu, bouton « Répondre dans Kubios »). Le courriel de décision indique qui a approuvé ou refusé, et quand ; les autres approbateurs reçoivent un avis que la demande est traitée."
+      ]
+    },
     {
       "version": "1.44.0",
       "date": "2026-11-11",
