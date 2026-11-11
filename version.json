@@ -1,7 +1,14 @@
 {
-  "version": "1.44.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.2.zip",
+  "version": "1.44.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.44.3.zip",
   "changelog": [
+    {
+      "version": "1.44.3",
+      "date": "2026-11-11",
+      "changes": [
+        "Correctif : les exports PDF de l'atelier (rapport financier de la rentabilité, fiches d'évaluation des mécaniciens) et le PDF des évaluations RH ne fonctionnaient plus depuis la 1.42.0 (conflit entre deux fonctions de même nom). Trouvé par la nouvelle suite de tests automatiques."
+      ]
+    },
     {
       "version": "1.44.2",
       "date": "2026-11-11",
