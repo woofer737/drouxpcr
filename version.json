@@ -1,7 +1,16 @@
 {
-  "version": "1.50.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.50.1.zip",
+  "version": "1.51.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.51.0.zip",
   "changelog": [
+    {
+      "version": "1.51.0",
+      "date": "2026-11-12",
+      "changes": [
+        "Nouveau : super administrateur (fournisseur). Compte visible dans la liste des utilisateurs (badge « Fournisseur »), créé seulement sur l'ordinateur serveur (Activer_super_admin.bat), non modifiable par les administrateurs du client, et qui ne compte pas dans le nombre d'utilisateurs de la licence.",
+        "Nouveau : mode maintenance. Message, retour prévu, option pour laisser fonctionner les postes de punch ; les autres utilisateurs voient une page d'attente.",
+        "Nouveau : Système → Santé du système (super administrateur) : espace disque, base de données et intégrité, accès aux dossiers, sauvegardes, Lightspeed, courriels, Excel, licence, tâches de fond, temps de réponse, erreurs du serveur, historique des métriques sur 24 h ou 7 jours, et alertes par courriel avec seuils réglables."
+      ]
+    },
     {
       "version": "1.50.1",
       "date": "2026-11-11",
