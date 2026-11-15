@@ -1,7 +1,17 @@
 {
-  "version": "1.51.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.51.0.zip",
+  "version": "1.52.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.52.0.zip",
   "changelog": [
+    {
+      "version": "1.52.0",
+      "date": "2026-11-15",
+      "changes": [
+        "Nouveau : Rapports → Rapport comptable mensuel. Le « rapport de ventes pour taxes » remis à la comptabilité, calculé à partir des ventes Lightspeed : ventes totales, montants à réduire (sans taxes, ventes à 5 %, 13 %, 15 %, livraison, locations…), écritures GL, dépenses et paiements / remboursements par compte GL, avec vérifications.",
+        "Export Excel avec formules (la comptabilité peut ajuster les cellules) et une feuille « Détail des sources » qui montre d'où vient chaque montant. Cellules jaunes : montants à saisir à la main.",
+        "Lignes, comptes GL et sources (catégorie, classe ou catégorie de taxe, frais, taux, texte, modes de paiement) réglables par un administrateur sur la même page. Les modes de paiement non associés sont signalés.",
+        "Activer_super_admin.bat trouve maintenant le Python du service Kubios (le raccourci Python du Microsoft Store est ignoré)."
+      ]
+    },
     {
       "version": "1.51.0",
       "date": "2026-11-12",
