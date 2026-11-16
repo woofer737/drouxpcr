@@ -1,7 +1,17 @@
 {
-  "version": "1.52.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.52.1.zip",
+  "version": "1.53.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.53.0.zip",
   "changelog": [
+    {
+      "version": "1.53.0",
+      "date": "2026-11-16",
+      "changes": [
+        "Atelier : chaque bon de travail peut avoir une heure de début et une durée prévue, en plus de la date de travail. Kubios suggère la durée d'après les travaux demandés (ex. « Service 45 mins »).",
+        "Atelier → Bons de travail → 🕒 Jour : nouvelle vue heure par heure, une colonne par mécanicien. Glisser un bon à l'heure voulue, étirer le bas du bloc pour changer la durée, cliquer pour le modifier ; les bons qui se chevauchent s'affichent côte à côte.",
+        "L'horaire des mécaniciens (module Horaires et congés) est grisé dans le calendrier : hors quart, dîner, congé approuvé, magasin fermé. Kubios avertit (sans bloquer) si un bon y est placé ou en chevauche un autre.",
+        "Vue Semaine : heure de chaque bon, quart ou congé de chaque mécanicien ; cliquer sur un jour ouvre la vue Jour. Le poste de punch présente les bons planifiés dans l'ordre de leurs heures."
+      ]
+    },
     {
       "version": "1.52.1",
       "date": "2026-11-15",
