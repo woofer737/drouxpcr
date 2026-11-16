@@ -1,7 +1,15 @@
 {
-  "version": "1.53.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.53.1.zip",
+  "version": "1.53.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.53.2.zip",
   "changelog": [
+    {
+      "version": "1.53.2",
+      "date": "2026-11-16",
+      "changes": [
+        "Rapport de ventes par catégorie d'articles (PDF, Excel et écran) : le total des ventes et le total des taxes sont surlignés en jaune.",
+        "Nouvelle section « Provenance du grand total » : total des ventes + total des taxes (détail TPS, TVQ…) = grand total facturé aux clients. Dans l'Excel, ces montants sont des formules liées aux deux totaux."
+      ]
+    },
     {
       "version": "1.53.1",
       "date": "2026-11-16",
