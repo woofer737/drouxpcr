@@ -1,7 +1,14 @@
 {
-  "version": "1.56.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.56.0.zip",
+  "version": "1.56.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.56.1.zip",
   "changelog": [
+    {
+      "version": "1.56.1",
+      "date": "2026-11-17",
+      "changes": [
+        "Mises à jour : revenir à une version d'avant 1.56.0 (retour en arrière ou paquet plus ancien) remet d'abord les secrets en clair, car ces versions ne savent pas les déchiffrer ; les courriels, Lightspeed et la boutique en ligne continuent de fonctionner. Ils sont rechiffrés dès qu'une version 1.56 ou plus récente redémarre."
+      ]
+    },
     {
       "version": "1.56.0",
       "date": "2026-11-17",
