@@ -1,7 +1,22 @@
 {
-  "version": "1.54.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.0.zip",
+  "version": "1.54.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.2.zip",
   "changelog": [
+    {
+      "version": "1.54.2",
+      "date": "2026-11-17",
+      "changes": [
+        "Boutique en ligne : les réglages sont dans leur propre onglet « Connexion et avis » (administrateurs), séparé de l'onglet « Commandes ». La page s'ouvre directement sur les réglages tant que la boutique n'est pas connectée."
+      ]
+    },
+    {
+      "version": "1.54.1",
+      "date": "2026-11-17",
+      "changes": [
+        "Boutique en ligne : nouveau réglage « Préfixe des commandes à suivre » (ex. Web-). Seules ces commandes sont annoncées, résumées et affichées ; plusieurs préfixes possibles, séparés par des virgules.",
+        "Message plus clair quand l'application Shopify n'a pas la permission de lire les commandes : étapes à suivre et permissions actuelles du jeton."
+      ]
+    },
     {
       "version": "1.54.0",
       "date": "2026-11-17",
