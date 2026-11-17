@@ -1,7 +1,22 @@
 {
-  "version": "1.56.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.56.1.zip",
+  "version": "1.58.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.0.zip",
   "changelog": [
+    {
+      "version": "1.58.0",
+      "date": "2026-11-17",
+      "changes": [
+        "Santé du système → Surveillance externe (battement de cœur) : toutes les 5 minutes, Kubios envoie un signal « je fonctionne » à un service externe gratuit (ex. Healthchecks.io). Si le signal cesse (ordinateur éteint, Kubios arrêté, Internet coupé), ce service t'avertit. Appel sortant seulement : rien à ouvrir dans Cloudflare Access.",
+        "Si la base de données ne répond plus, Kubios envoie un signal d'échec pour une alerte immédiate. Guide de configuration, bouton de test et état du dernier signal sur la page ; l'adresse de ping est chiffrée comme les autres secrets."
+      ]
+    },
+    {
+      "version": "1.57.0",
+      "date": "2026-11-17",
+      "changes": [
+        "Nouvelle adresse de vérification /ping pour une surveillance externe (ex. UptimeRobot) : répond « kubios-ok » seulement si Kubios et sa base de données fonctionnent, sinon une erreur 503. Accessible sans connexion, elle ne révèle aucune information et n'entre pas dans les statistiques de Santé du système."
+      ]
+    },
     {
       "version": "1.56.1",
       "date": "2026-11-17",
