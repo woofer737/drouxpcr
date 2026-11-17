@@ -1,7 +1,18 @@
 {
-  "version": "1.53.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.53.2.zip",
+  "version": "1.54.0",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.0.zip",
   "changelog": [
+    {
+      "version": "1.54.0",
+      "date": "2026-11-17",
+      "changes": [
+        "Nouveau module : Clients et comptes → Boutique en ligne. Kubios se connecte à la boutique Shopify (lecture seule) et lit les commandes toutes les 2 à 30 minutes.",
+        "Courriel à la personne responsable dès qu'une nouvelle commande arrive : client, articles, total, mode de livraison, note du client et bouton « Ouvrir dans Shopify ».",
+        "Résumé de la journée par courriel à l'heure choisie : commandes reçues, complétées et à suivre (non traitées, partiellement traitées, paiement en attente), avec leur ancienneté.",
+        "Page de suivi des commandes (à suivre, aujourd'hui, 7 jours, toutes) avec recherche, aperçu du résumé et envoi immédiat. Nouvelle permission « Boutique en ligne » pour la personne qui s'occupe de la boutique.",
+        "Connexion par application du Dev Dashboard de Shopify (Client ID + secret, jeton renouvelé automatiquement) ou par jeton existant (shpat_…). Le secret n'est jamais renvoyé au navigateur."
+      ]
+    },
     {
       "version": "1.53.2",
       "date": "2026-11-16",
