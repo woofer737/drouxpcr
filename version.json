@@ -1,7 +1,15 @@
 {
-  "version": "1.54.5",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.5.zip",
+  "version": "1.54.6",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.6.zip",
   "changelog": [
+    {
+      "version": "1.54.6",
+      "date": "2026-11-17",
+      "changes": [
+        "Utilisateurs : la permission « Boutique en ligne » peut maintenant être cochée (Clients et comptes), avec un modèle en un clic « Boutique en ligne ». La permission « Poste de punch des employés » (Gestion RH), qui manquait aussi, est ajoutée.",
+        "Toute permission de Kubios absente des groupes s'affiche désormais dans un groupe « Autres » : aucun accès ne peut plus être impossible à donner."
+      ]
+    },
     {
       "version": "1.54.5",
       "date": "2026-11-17",
