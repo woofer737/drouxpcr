@@ -1,7 +1,14 @@
 {
-  "version": "1.54.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.2.zip",
+  "version": "1.54.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.54.3.zip",
   "changelog": [
+    {
+      "version": "1.54.3",
+      "date": "2026-11-17",
+      "changes": [
+        "Boutique en ligne : les commandes remboursées (ou dont le paiement est annulé) ne sont plus « à suivre », même si elles ne sont pas traitées ; elles restent visibles avec l'étiquette « Remboursée ». Les commandes partiellement remboursées restent suivies."
+      ]
+    },
     {
       "version": "1.54.2",
       "date": "2026-11-17",
