@@ -1,7 +1,17 @@
 {
-  "version": "1.58.1",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.1.zip",
+  "version": "1.58.2",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.2.zip",
   "changelog": [
+    {
+      "version": "1.58.2",
+      "date": "2026-11-23",
+      "changes": [
+        "Rapports de ventes — correction : les paiements retirés ou refusés (archivés dans Lightspeed, ex. carte refusée puis reprise) ne sont plus comptés, comme dans le rapport Paiements de Lightspeed.",
+        "Chaque paiement compte maintenant à SA date, comme dans Lightspeed (un acompte payé le 1er pour une vente terminée le 3 compte le 1er). La section 2 rapproche les acomptes reçus un autre jour pour que « Ventes de la période » égale toujours le grand total.",
+        "Excel du rapport : nouvelle feuille « Paiements (détail) » (n° de paiement, date, n° de vente, mode, montant) pour comparer ligne par ligne avec le rapport Paiements de Lightspeed.",
+        "Les jours déjà gardés sont relus automatiquement dans Lightspeed la première fois qu'un rapport les utilise. Le rapport comptable mensuel utilise aussi la date des paiements."
+      ]
+    },
     {
       "version": "1.58.1",
       "date": "2026-11-23",
