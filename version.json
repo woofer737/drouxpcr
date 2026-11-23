@@ -1,7 +1,15 @@
 {
-  "version": "1.58.0",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.0.zip",
+  "version": "1.58.1",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.1.zip",
   "changelog": [
+    {
+      "version": "1.58.1",
+      "date": "2026-11-23",
+      "changes": [
+        "Rapports de ventes — correction : les paiements « Debit Card » (et les autres types que Lightspeed range comme cartes) étaient comptés dans « Carte de crédit ». Ils reprennent leur vrai mode, comme dans le rapport Paiements de Lightspeed ; les paiements déjà gardés sont corrigés automatiquement au démarrage.",
+        "Section 2 « Répartition par mode de paiement » (PDF, Excel, écran) présentée comme Lightspeed : paiements, remboursements et net par mode ; « Argent reçu » ; puis le compte client à part (ventes portées au compte, dépôts reçus) et « Ventes de la période » qui égale le grand total."
+      ]
+    },
     {
       "version": "1.58.0",
       "date": "2026-11-17",
