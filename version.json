@@ -1,7 +1,17 @@
 {
-  "version": "1.58.2",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.2.zip",
+  "version": "1.58.3",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.3.zip",
   "changelog": [
+    {
+      "version": "1.58.3",
+      "date": "2026-11-23",
+      "changes": [
+        "Atelier → Bons de travail → Jour : les en-têtes des mécaniciens sont maintenant alignés sur leurs colonnes (un long texte d'en-tête les décalait).",
+        "Atelier → Poste de punch → Règles pour les mécaniciens (administrateur) : « Ordre imposé » (le mécanicien ne peut débuter que son prochain bon dans l'ordre fixé, ou reprendre un bon en pause ; le clavier est masqué) et « Bons existants seulement » (un numéro de bon qui n'a pas été créé dans Kubios est refusé). Les règles sont vérifiées par le serveur.",
+        "Poste de punch → À venir : vue « Cette semaine », « Semaine prochaine », « Ce mois-ci » et « Mois prochain » (jusqu'à 70 jours). En ordre imposé, la vue est en lecture seule.",
+        "Rapport de ventes : la section 2 s'appelle maintenant « Trésorerie »."
+      ]
+    },
     {
       "version": "1.58.2",
       "date": "2026-11-23",
