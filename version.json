@@ -1,7 +1,14 @@
 {
-  "version": "1.58.5",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.5.zip",
+  "version": "1.58.6",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.6.zip",
   "changelog": [
+    {
+      "version": "1.58.6",
+      "date": "2026-11-25",
+      "changes": [
+        "Rapport comptable mensuel : « Consignes à rembourser » est calculée automatiquement à partir des lignes de vente Lightspeed : montant NON taxé des frais (nouvelle source « Frais Lightspeed sans taxe (consigne) »). Les consignes remises aux clients sont déduites. Les réglages déjà enregistrés sont mis à jour une fois, automatiquement."
+      ]
+    },
     {
       "version": "1.58.5",
       "date": "2026-11-25",
