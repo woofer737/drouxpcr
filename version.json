@@ -1,7 +1,15 @@
 {
-  "version": "1.58.3",
-  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.3.zip",
+  "version": "1.58.4",
+  "download_url": "https://raw.githubusercontent.com/woofer737/drouxpcr/main/kubios-1.58.4.zip",
   "changelog": [
+    {
+      "version": "1.58.4",
+      "date": "2026-11-25",
+      "changes": [
+        "Rapport comptable mensuel : la ligne « Ventes Autochtones » est calculée automatiquement à partir de la taxe de vente Lightspeed « Autochtones - Exonéré » (source « Catégorie de taxes contient autochtone »). Elle passe en premier pour que ces ventes, sans taxes, ne soient plus comptées dans « Ventes sans taxes ». Les réglages déjà enregistrés sont mis à jour une fois, automatiquement.",
+        "Source « Catégorie de taxes » : il suffit maintenant d'une partie du nom (ex. « autochtone »)."
+      ]
+    },
     {
       "version": "1.58.3",
       "date": "2026-11-23",
